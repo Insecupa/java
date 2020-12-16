@@ -1,5 +1,5 @@
-package com.company;
-import com.company.bank;
+package 'folder'.'subfolder';
+import 'folder.'subfolder'.bank;
 import java.util.Scanner;
 
 
