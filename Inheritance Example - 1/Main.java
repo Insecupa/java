@@ -1,16 +1,16 @@
 package inheritance;
 import inheritance.animal;
 import inheritance.Dog;
-
+import inheritance.fish;
 public class Main {
     public static void main(String args[]){
         animal ani = new animal("animal", 0, 1, 5, 10);
 
-        //ani.eat();
-        //System.out.println(ani.getName());
+        ani.eat();
+        System.out.println(ani.getName());
 
         Dog dog = new Dog("Leo", 55, 10, 2, 4, 1, 22, "MediumSingle");
-        //dog.eat();
+        dog.eat();
 
         dog.walk(5);
         dog.run(10);
