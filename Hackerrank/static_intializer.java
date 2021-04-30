@@ -14,7 +14,7 @@ static{
 
     B = scanner.nextInt();
     H = scanner.nextInt();
-    if(B >= 0 && H >= 0){
+    if(B > 0 && H > 0){
         flag = true;
     }
     else{
